@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <script>
+      var firebaseConfig = {
+  apiKey: "AIzaSyBKctf--QmL0U6TQqTFwjFUqfl6BqD7neI",
+  authDomain: "corrida-multy-87f77.firebaseapp.com",
+  databaseURL: "https://corrida-multy-87f77-default-rtdb.firebaseio.com",
+  projectId: "corrida-multy-87f77",
+  storageBucket: "corrida-multy-87f77.appspot.com",
+  messagingSenderId: "1074537521196",
+  appId: "1:1074537521196:web:0bc80e1be03094d4b93189"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- Firebase SDK CODE ADD BELOW -->
+
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+    <script src="./Form.js"></script>
+    <script src="./Game.js"></script>
+    <script src="./Player.js"></script>
+  </body>
+</html>
